@@ -56,9 +56,9 @@ Do not enter confidential customer details into a public demo. A production help
 - [x] Create a ticket with valid details and check the required fields.
 - [x] Change status, priority, and assignee; confirm an activity entry appears.
 - [x] Add an update note and confirm it survives refresh.
-- [x] Search for a ticket by customer and confirm the filter shows the matching ticket.
-- [x] Combine status and priority filters and confirm the matching ticket.
-- [x] Export CSV and confirm it contains ticket headers and the created ticket row.
+- [x] Search for a ticket by customer and ticket ID and confirm the filter shows the matching ticket.
+- [x] Combine status, priority, and category filters and confirm the matching ticket.
+- [x] Export CSV and confirm its column headers and ticket rows.
 - [x] Reset the demo and confirm fictional sample data returns.
 - [x] Check the layout on a narrow mobile screen and confirm no horizontal overflow.
 
