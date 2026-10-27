@@ -124,6 +124,7 @@ button, input, textarea, select { font: inherit; }
 .detail-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .7rem; margin: 1rem 0; padding: 1rem 0; border-top: 1px solid #edf1ef; border-bottom: 1px solid #edf1ef; }
 .detail-controls label { display: block; font-size: .68rem; color: #6c7d7e; font-weight: 750; margin-bottom: .35rem; }
 .detail-controls .form-select { min-height: 38px; font-size: .74rem; }
+.control-full { grid-column: 1 / -1; }
 .timeline-heading { display: flex; align-items: center; justify-content: space-between; gap: .6rem; margin: 1.1rem 0 .65rem; }
 .timeline-heading h3 { margin: 0; font-size: .82rem; font-weight: 800; }
 .timeline-count { color: #98a4a1; font-size: .64rem; }
