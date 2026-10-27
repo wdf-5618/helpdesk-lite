@@ -2,7 +2,7 @@
 
 HelpDesk Lite is a small-business support queue prototype. It lets a team record customer requests, mark priorities, assign ownership, track resolution status, and keep an activity trail in one place.
 
-**Live demo:** [Open HelpDesk Lite](https://helpdesk-lite-wdf-5618s-projects.vercel.app)  
+**Live demo:** [Open HelpDesk Lite](https://helpdesk-lite-theta.vercel.app)  
 **Source code:** https://github.com/wdf-5618/helpdesk-lite
 
 ## Features
