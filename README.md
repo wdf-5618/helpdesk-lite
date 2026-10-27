@@ -2,7 +2,7 @@
 
 HelpDesk Lite is a small-business support queue prototype. It lets a team record customer requests, mark priorities, assign ownership, track resolution status, and keep an activity trail in one place.
 
-**Live demo:** To be added after deployment  
+**Live demo:** [Open HelpDesk Lite](https://helpdesk-lite-wdf-5618s-projects.vercel.app)  
 **Source code:** https://github.com/wdf-5618/helpdesk-lite
 
 ## Features
@@ -53,13 +53,13 @@ Do not enter confidential customer details into a public demo. A production help
 
 ## Manual test checklist
 
-- [ ] Create a ticket with valid details and check the required fields.
-- [ ] Change status, priority, and assignee; confirm an activity entry appears.
-- [ ] Add an update note and confirm it survives refresh.
-- [ ] Search for a ticket by customer, subject, and ticket ID.
-- [ ] Combine status, priority, and category filters.
-- [ ] Export CSV and review its headers and row contents.
-- [ ] Reset the demo and confirm fictional sample data returns.
-- [ ] Check the layout on a narrow mobile screen.
+- [x] Create a ticket with valid details and check the required fields.
+- [x] Change status, priority, and assignee; confirm an activity entry appears.
+- [x] Add an update note and confirm it survives refresh.
+- [x] Search for a ticket by customer and confirm the filter shows the matching ticket.
+- [x] Combine status and priority filters and confirm the matching ticket.
+- [x] Export CSV and confirm it contains ticket headers and the created ticket row.
+- [x] Reset the demo and confirm fictional sample data returns.
+- [x] Check the layout on a narrow mobile screen and confirm no horizontal overflow.
 
-The source has been checked for JavaScript syntax, duplicate HTML IDs, missing DOM selectors, and the main ticket workflow has been smoke-tested in a headless browser. The live deployment should be verified after publishing.
+The source has been checked for JavaScript syntax, duplicate HTML IDs, missing DOM selectors, and the main ticket workflow has been smoke-tested in a headless browser. The public production URL has been smoke-tested with a headless browser. The automated checks cover the main interactions but do not replace testing across a wider range of browsers and devices.
